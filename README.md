@@ -7,7 +7,7 @@
 | # | 题目/思路 | Code | 标签 |
 | --- | --- | --- | --- |
 | 1 | [两数之和](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0001) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0001/Solution.java) | 数组 哈希表 |
-
+| 58 | [最后一个单词的长度](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0058) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0058/Solution.java) | 字符串 |
 ### 中等
 
 
