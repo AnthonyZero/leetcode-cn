@@ -4,7 +4,7 @@
 > 源代码在 src 目录中，相关题解都在 notes 目录中
 
 ### 简单
-| NO | Leetcode-cn | Thinking | Code | Tags |
+| NO | Title | Thinking | Code | Tags |
 | --- | --- | --- | --- | --- |
 | 1 | [Two Sum](https://leetcode-cn.com/problems/two-sum/) | [两数之和](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0001) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0001/Solution.java) | 数组 哈希表 |
 | 58 | [Length of Last Word](https://leetcode-cn.com/problems/length-of-last-word/) | [最后一个单词的长度](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0058) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0058/Solution.java) | 字符串 |
