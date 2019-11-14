@@ -10,6 +10,7 @@
 | 20 | [Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/)| [有效的括号](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0020) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0020/Solution.java) | 栈 字符串 |
 | 28 | [Implement strStr()](https://leetcode-cn.com/problems/implement-strstr/)| [实现 strStr()](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0028) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0028/Solution.java) | 双指针 字符串 KMP|
 | 58 | [Length of Last Word](https://leetcode-cn.com/problems/length-of-last-word/) | [最后一个单词的长度](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0058) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0058/Solution.java) | 字符串 |
+| 125 | [Valid Palindrome](https://leetcode-cn.com/problems/valid-palindrome/) | [验证回文串](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0125) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0125/Solution.java) | 双指针 字符串 |
 ### 中等
 
 
