@@ -1,4 +1,4 @@
-package com.anthonyzero.hard._0003;
+package com.anthonyzero.medium._0003;
 
 import java.util.HashMap;
 import java.util.Map;

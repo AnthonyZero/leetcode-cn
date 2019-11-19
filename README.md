@@ -11,7 +11,10 @@
 | 28 | [Implement strStr()](https://leetcode-cn.com/problems/implement-strstr/)| [实现 strStr()](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0028) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0028/Solution.java) | 双指针 字符串 KMP|
 | 58 | [Length of Last Word](https://leetcode-cn.com/problems/length-of-last-word/) | [最后一个单词的长度](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0058) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0058/Solution.java) | 字符串 |
 | 125 | [Valid Palindrome](https://leetcode-cn.com/problems/valid-palindrome/) | [验证回文串](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0125) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0125/Solution.java) | 双指针 字符串 |
-### 中等
 
+### 中等
+| NO | Title | Thinking | Code | Tags |
+| --- | --- | --- | --- | --- |
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | [无重复字符的最长子串](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0003) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/medium/_0003/Solution.java) | 字符串 双指针 哈希表 滑动窗口|
 
 ### 困难
