@@ -7,6 +7,7 @@
 | NO | Title | Thinking | Code | Tags |
 | --- | --- | --- | --- | --- |
 | 1 | [Two Sum](https://leetcode-cn.com/problems/two-sum/) | [两数之和](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0001) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0001/Solution.java) | 数组 哈希表 |
+| 14 | [Longest Common Prefix](https://leetcode-cn.com/problems/longest-common-prefix/) | [最长公共前缀](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0014) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0014/Solution.java) | 字符串 |
 | 20 | [Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/)| [有效的括号](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0020) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0020/Solution.java) | 栈 字符串 |
 | 28 | [Implement strStr()](https://leetcode-cn.com/problems/implement-strstr/)| [实现 strStr()](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0028) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0028/Solution.java) | 双指针 字符串 KMP|
 | 58 | [Length of Last Word](https://leetcode-cn.com/problems/length-of-last-word/) | [最后一个单词的长度](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0058) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0058/Solution.java) | 字符串 |
