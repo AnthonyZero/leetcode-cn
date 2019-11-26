@@ -21,5 +21,6 @@
 | NO | Title | Thinking | Code | Tags |
 | --- | --- | --- | --- | --- |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | [无重复字符的最长子串](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0003) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/medium/_0003/Solution.java) | 字符串 双指针 哈希表 滑动窗口|
+| 622 | [Design Circular Queue](https://leetcode-cn.com/problems/design-circular-queue/) | [设计循环队列](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0622) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/medium/_0622/Solution.java) | 设计 队列|
 
 ### 困难
