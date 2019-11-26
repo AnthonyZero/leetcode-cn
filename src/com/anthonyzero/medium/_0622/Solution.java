@@ -1,4 +1,4 @@
-package com.anthonyzero.easy._0622;
+package com.anthonyzero.medium._0622;
 
 import java.util.Arrays;
 
