@@ -16,6 +16,7 @@
 | 58 | [Length of Last Word](https://leetcode-cn.com/problems/length-of-last-word/) | [最后一个单词的长度](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0058) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0058/Solution.java) | 字符串 |
 | 118 | [Pascal's Triangle](https://leetcode-cn.com/problems/pascals-triangle/) | [杨辉三角](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0118) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0118/Solution.java) | 数组 |
 | 125 | [Valid Palindrome](https://leetcode-cn.com/problems/valid-palindrome/) | [验证回文串](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0125) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0125/Solution.java) | 双指针 字符串 |
+| 203 | [Remove Linked List Elements](https://leetcode-cn.com/problems/remove-linked-list-elements/) | [移除链表元素](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0203) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0203/Solution.java) | 链表 |
 
 ### 中等
 | NO | Title | Thinking | Code | Tags |
