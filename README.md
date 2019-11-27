@@ -17,6 +17,7 @@
 | 118 | [Pascal's Triangle](https://leetcode-cn.com/problems/pascals-triangle/) | [杨辉三角](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0118) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0118/Solution.java) | 数组 |
 | 125 | [Valid Palindrome](https://leetcode-cn.com/problems/valid-palindrome/) | [验证回文串](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0125) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0125/Solution.java) | 双指针 字符串 |
 | 203 | [Remove Linked List Elements](https://leetcode-cn.com/problems/remove-linked-list-elements/) | [移除链表元素](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0203) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0203/Solution.java) | 链表 |
+| 237 | [Delete Node in a Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/) | [删除链表中的节点](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0237) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0237/Solution.java) | 链表 |
 
 ### 中等
 | NO | Title | Thinking | Code | Tags |
