@@ -23,8 +23,8 @@ public class ListNode {
         }
     }
 
-    // 以当前节点为头结点的链表信息字符串
-    @Override
+    // 以当前节点为头结点的链表信息字符串  当测试有环链表的时候 不能覆盖的toString()方法 会内存溢出
+    /*@Override
     public String toString(){
 
         StringBuilder s = new StringBuilder();
@@ -35,5 +35,10 @@ public class ListNode {
         }
         s.append("NULL");
         return s.toString();
+    }*/
+
+    @Override
+    public String toString() {
+        return String.valueOf(this.val);
     }
 }
