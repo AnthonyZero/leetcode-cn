@@ -57,10 +57,10 @@
 ```
 
 ### 思路2
-使用快慢指针，相当于一个环线跑道里有两个人跑步，一个跑的快，一个跑的慢。所以说如果跑道是环形的两个人终会相遇。
+使用快慢指针，相当于一个环线跑道里有两个人跑步，一个跑的快，一个跑的慢。所以如果跑道是环形的两个人终会相遇。
 
 代码实现就是：当头节点为空或者只有一个节点的时候肯定没有环返回false;
-然后快的人在第二个位置出发，慢的人在头节点第一个位置出发。如果链表没有环，那么快的人跑在前面肯定会得出结论false(while退出条件)。如果链表有环。那么两个人终会相遇（返回true）,每次快的人移动2步，慢的人移动1步。
+然后快的人和慢的人同时在第一个位置头节点出发。如果链表没有环，那么快的人跑在前面肯定先遇到节点或下一个节点为空的情况，这时候肯定会得出结论false(while退出条件)。如果链表有环。那么两个人终会相遇（返回true）,每次快的人移动2步，慢的人移动1步。
 
 执行用时 :0 ms, 在所有 java 提交中击败了100.00%的用户
 
@@ -75,13 +75,12 @@
             return false;
         }
         ListNode slow = head;
-        ListNode fast = head.next;
+        ListNode fast = head;
         while(fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
             if (slow == fast) {
                 return true;
-            } else {
-                slow = slow.next;
-                fast = fast.next.next;
             }
         }
         return false;
