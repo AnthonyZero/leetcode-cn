@@ -18,6 +18,20 @@ public class Solution {
         return virtualNode.next;
     }
 
+    //递归方式删除
+//    public ListNode removeElements(ListNode head, int val) {
+//        if (head == null) {
+//            return null;
+//        }
+//        ListNode listNode = removeElements(head.next, val); //后面已经完成了目标 删除了目标值的 链表（返回的头节点）
+//        if (head.val == val) {
+//            head = listNode;  //代表删除当前头
+//        } else {
+//            head.next = listNode; //不删除 关联起来
+//        }
+//        return head;
+//    }
+
 
     public static void main(String[] args) {
         int[] arr = new int[]{1,2,6,3,4,5,6};
