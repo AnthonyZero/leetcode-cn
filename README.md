@@ -30,5 +30,5 @@
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | [无重复字符的最长子串](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0003) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/medium/_0003/Solution.java) | 字符串 双指针 哈希表 滑动窗口|
 | 142 | [Linked List Cycle II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | [环形链表 II](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0142) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/medium/_0142/Solution.java) | 链表 双指针|
 | 622 | [Design Circular Queue](https://leetcode-cn.com/problems/design-circular-queue/) | [设计循环队列](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0622) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/medium/_0622/Solution.java) | 设计 队列|
-
+| 1038 | [Binary Search Tree to Greater Sum Tree](https://leetcode-cn.com/problems/binary-search-tree-to-greater-sum-tree/) | [从二叉搜索树到更大和树](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/1038) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/medium/_1038/Solution.java) | 二叉搜索树 |
 ### 困难
