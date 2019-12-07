@@ -3,11 +3,11 @@ package com.anthonyzero.tools;
 /**
  * 二叉搜索树
  */
-public class BTS {
+public class BST {
 
     public TreeNode root;
 
-    public BTS() {
+    public BST() {
         root = null;
     }
 

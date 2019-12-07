@@ -1,6 +1,6 @@
 package com.anthonyzero.medium._1038;
 
-import com.anthonyzero.tools.BTS;
+import com.anthonyzero.tools.BST;
 import com.anthonyzero.tools.TreeNode;
 
 public class Solution {
@@ -19,15 +19,15 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        BTS bts = new BTS(); //创建一个二分搜索树
+        BST bst = new BST(); //创建一个二分搜索树
         int[] array = new int[]{4,1,6,0,2,5,7,3,8};
         for (int i = 0; i < array.length; i++) {
-            bts.addNode(array[i]);
+            bst.addNode(array[i]);
         }
-        bts.inOrder(); //中序遍历
+        bst.inOrder(); //中序遍历
         System.out.println();
 
-        TreeNode root = solution.bstToGst(bts.root);
-        bts.inOrderNode(root);
+        TreeNode root = solution.bstToGst(bst.root);
+        bst.inOrderNode(root);
     }
 }
