@@ -3,11 +3,11 @@ package com.anthonyzero.tools;
 /**
  * 二叉搜索树
  */
-public class BTS {
+public class BST {
 
     public TreeNode root;
 
-    public BTS() {
+    public BST() {
         root = null;
     }
 
@@ -16,7 +16,8 @@ public class BTS {
         root = addNode(root, value);
     }
 
-    // 以当前节点出发 添加value
+    // 向以node为根的二分搜索树中插入元素e，递归算法
+    // 返回插入新节点后二分搜索树的根
     private TreeNode addNode(TreeNode node, int value) {
         if (node == null) {
             return new TreeNode(value);
@@ -34,6 +35,7 @@ public class BTS {
         inOrder(root);
     }
 
+    // 指定节点 中序遍历
     public void inOrderNode(TreeNode root) {
         inOrder(root);
     }
