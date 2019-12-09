@@ -1,6 +1,6 @@
 package com.anthonyzero.medium._0098;
 
-import com.anthonyzero.tools.BTS;
+import com.anthonyzero.tools.BST;
 import com.anthonyzero.tools.TreeNode;
 
 import java.util.ArrayList;
@@ -47,11 +47,11 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        BTS bts = new BTS();
+        BST bst = new BST();
         for (int i = 0; i < 3; i++) {
-            bts.addNode(i);
+            bst.addNode(i);
         }
         Solution solution = new Solution();
-        System.out.println(solution.isValidBST(bts.root));
+        System.out.println(solution.isValidBST(bst.root));
     }
 }
