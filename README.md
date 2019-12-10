@@ -25,6 +25,7 @@
 | 232 | [Implement Queue using Stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | [用栈实现队列](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0232) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0232/Solution.java) | 栈 设计 |
 | 237 | [Delete Node in a Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/) | [删除链表中的节点](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0237) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0237/Solution.java) | 链表 |
 | 349 | [Intersection of Two Arrays](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | [两个数组的交集](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0349) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0349/Solution.java) | 哈希表 |
+| 350 | [Intersection of Two Arrays II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | [ 两个数组的交集 II](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0350) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0350/Solution.java) | 哈希表 |
 
 ### 中等
 | NO | Title | Thinking | Code | Tags |
