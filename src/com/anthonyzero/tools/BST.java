@@ -1,5 +1,8 @@
 package com.anthonyzero.tools;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * 二叉搜索树
  */
@@ -64,4 +67,20 @@ public class BST {
         preOrder(node.right);
     }
 
+    //层序遍历
+    public void levelOrder() {
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while(!queue.isEmpty()) {
+            TreeNode node = queue.remove();
+            System.out.println(node.val);
+
+            if (node.left != null) {
+                queue.add(node.left);
+            }
+            if (node.right != null) {
+                queue.add(node.right);
+            }
+        }
+    }
 }
