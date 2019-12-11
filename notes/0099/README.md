@@ -88,3 +88,42 @@
         return list;
     }
 ```
+
+### 思路2 
+只用一次递归解决：在遍历二叉树的过程中找到不满足递增的点（即错误交换的点 这里只有两个节点），交换两者的值即可。错误交换的点在中序遍历结果中可能是相邻的，也可能是不相邻的。
+
+* 相邻的情况：比如1324 错误交换的点3和2就是相邻的。在第一次遇到不递增3 > 2的情况时，将first置为3，second置为2，后续不出现递增的情况结束了中序遍历。(这种就是全局只有一次不递增发生：错误的节点是相邻的)
+
+* 不相邻的情况：比如321，错误交换的点3和1就是不相邻的。还是第一次遇到不递增3 > 2的情况时，将first置为3，second置为2（first在这就不动了），后面在第二次遇到不递增2 > 1的情况时只改变second. second = 1。
+
+最后遍历结束后交换first与second的值即可。
+
+```
+    private TreeNode first = null;
+    private TreeNode second = null;
+    private TreeNode pre = null; //pre每次变化 = 二叉树中序遍历的顺序
+
+    public void recoverTree(TreeNode root) {
+        inOrder(root); //first 和second 已经赋值了
+        int temp = first.val; //交换错误的两个节点的值
+        first.val = second.val;
+        second.val = temp;
+    }
+
+    private void inOrder(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        inOrder(root.left);
+        if (pre != null && pre.val > root.val) {
+            if (first == null) { //first为空,首次找到前后大小不对的点
+                first = pre;
+                second = root;
+            } else {
+                second = root; //first不为空,第二次找到前后大小不对的点,只更新second
+            }
+        }
+        pre = root; //更新前驱
+        inOrder(root.right);
+    }
+```
