@@ -45,6 +45,7 @@
 | 142 | [Linked List Cycle II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | [环形链表 II](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0142) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/medium/_0142/Solution.java) | 链表 双指针|
 | 622 | [Design Circular Queue](https://leetcode-cn.com/problems/design-circular-queue/) | [设计循环队列](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0622) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/medium/_0622/Solution.java) | 设计 队列|
 | 701 | [Insert into a Binary Search Tree](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/) | [二叉搜索树中的插入操作](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0701) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/medium/_0701/Solution.java) | 树|
+| 707 | [Design Linked List](https://leetcode-cn.com/problems/design-linked-list/) | [设计链表](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0707) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/medium/_0707/Solution.java) |设计 链表|
 | 1038 | [Binary Search Tree to Greater Sum Tree](https://leetcode-cn.com/problems/binary-search-tree-to-greater-sum-tree/) | [从二叉搜索树到更大和树](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/1038) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/medium/_1038/Solution.java) | 二叉搜索树 |
 
 ### 困难
