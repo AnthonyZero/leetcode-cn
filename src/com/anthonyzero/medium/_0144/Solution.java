@@ -9,24 +9,43 @@ import java.util.Stack;
 
 public class Solution {
 
+//    public List<Integer> preorderTraversal(TreeNode root) {
+//        if (root == null) {
+//            return new ArrayList<>();
+//        }
+//        List<Integer> list = new ArrayList<>();
+//        Stack<TreeNode> stack = new Stack<>();
+//        stack.push(root);
+//        while(!stack.isEmpty()) {
+//            TreeNode node = stack.pop();
+//            list.add(node.val);
+//            if (node.right != null) {
+//                stack.push(node.right);
+//            }
+//            if (node.left != null) {
+//                stack.push(node.left);
+//            }
+//        }
+//        return list;
+//    }
+
+
     public List<Integer> preorderTraversal(TreeNode root) {
         if (root == null) {
             return new ArrayList<>();
         }
         List<Integer> list = new ArrayList<>();
-        Stack<TreeNode> stack = new Stack<>();
-        stack.push(root);
-        while(!stack.isEmpty()) {
-            TreeNode node = stack.pop();
-            list.add(node.val);
-            if (node.right != null) {
-                stack.push(node.right);
-            }
-            if (node.left != null) {
-                stack.push(node.left);
-            }
-        }
+        preorder(root, list);
         return list;
+    }
+
+    private void preorder(TreeNode root, List<Integer> list) {
+        if (root == null) {
+            return;
+        }
+        list.add(root.val);
+        preorder(root.left, list);
+        preorder(root.right, list);
     }
 
     public static void main(String[] args) {
