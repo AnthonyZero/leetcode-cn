@@ -36,6 +36,7 @@
 ### 中等
 | NO | Title | Thinking | Code | Tags |
 | --- | --- | --- | --- | --- |
+| 2 | [Add Two Numbers](https://leetcode-cn.com/problems/add-two-numbers/) | [两数相加](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0002) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/medium/_0002/Solution.java) | 链表 数学|
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | [无重复字符的最长子串](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0003) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/medium/_0003/Solution.java) | 字符串 双指针 哈希表 滑动窗口|
 | 94 | [Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | [二叉树的中序遍历](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0094) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/medium/_0094/Solution.java) | 栈 树 哈希表 |
 | 98 | [Validate Binary Search Tree](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [验证二叉搜索树](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0098) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/medium/_0098/Solution.java) | 树 深度优先搜索|
