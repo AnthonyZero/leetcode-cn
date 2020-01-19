@@ -28,7 +28,7 @@ public class Solution {
             if (sb.length() > 0) {
                 sb.append(" ");
             }
-            //找每个继承词 在字典树中的 最短前缀单词
+            //找每个继承词 在字典树中的 最短词根
             List<Character> list = new ArrayList<>(); //记录每次的字符
             Node cur = root;
             for (int i = 0; i < successor.length(); i++) {
@@ -40,7 +40,7 @@ public class Solution {
                     //存在该字符
                     list.add(c);
                     if (cur.next[c -'a'].isWord) {
-                        //已经找到了词根 最短前缀单词到此结束
+                        //已经找到了词根 最短词根到此结束
                         for (char character : list) {
                             sb.append(character);
                         }
