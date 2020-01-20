@@ -1,5 +1,7 @@
 package com.anthonyzero.medium._0676;
 
+import java.util.*;
+
 public class Solution {
 
     /**
@@ -8,7 +10,7 @@ public class Solution {
      *
      * 结果 [null,null,true,true,false,false]  hello虽然全匹配hello理应返回false 但是可以通过替换一次机会匹配hallo 返回true 这点需要注意
      */
-    class MagicDictionary {
+    /*class MagicDictionary {
         private Node root;
         public MagicDictionary() {
             root = new Node();
@@ -65,6 +67,50 @@ public class Solution {
                 this.isWord = false;
                 next = new Node[26];
             }
+        }
+    }*/
+
+
+    class MagicDictionary {
+        private Map<Integer, List<String>> map;
+        public MagicDictionary() {
+            map = new HashMap<>();
+        }
+
+        public void buildDict(String[] dict) {
+            for (String word : dict) {
+                int length = word.length();
+                if (map.containsKey(length)) {
+                    List<String> words = map.get(length);
+                    words.add(word);
+                    map.put(length, words);
+                } else {
+                    map.put(length, new ArrayList<>(Arrays.asList(word)));
+                }
+            }
+        }
+
+
+        public boolean search(String word) {
+            if (word == null || word.length() == 0) {
+                return false;
+            }
+            List<String> list = map.get(word.length());
+            if (list == null || list.size() == 0) {
+                return false;
+            }
+            for (String pattern : list) {
+                int count = 0;
+                for (int i = 0; i < word.length(); i++) {
+                    if (word.charAt(i) != pattern.charAt(i)) {
+                        count++;
+                    }
+                }
+                if(count == 1) {
+                    return true;
+                }
+            }
+            return false;
         }
     }
 
