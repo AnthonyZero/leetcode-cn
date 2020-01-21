@@ -16,21 +16,25 @@ public class Solution {
         PriorityQueue<String> queue = new PriorityQueue<String>(new Comparator<String>() {
             @Override
             public int compare(String o1, String o2) {
-                if (map.get(o2) != map.get(o1)) {
-                    return map.get(o2) - map.get(o1);
+                if (map.get(o1) != map.get(o2)) {
+                    return map.get(o1) - map.get(o2);  //频率低的在队头
                 } else {
-                    return o1.compareTo(o2);
+                    return o2.compareTo(o1);
                 }
             }
         });
         for (String word : map.keySet()) {
             queue.add(word);
+            if (queue.size() > k) {  //超过了k个的话 频率低的出队
+                queue.remove();
+            }
         }
 
         List<String> topK = new ArrayList<>();
-        for (int i = 0; i < k; i++) {
+        while(!queue.isEmpty()) {
             topK.add(queue.remove());
         }
+        Collections.reverse(topK);
         return topK;
     }
 
