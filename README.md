@@ -32,6 +32,7 @@
 | 303 | [Range Sum Query - Immutable](https://leetcode-cn.com/problems/range-sum-query-immutable/) | [区域和检索 - 数组不可变](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0303) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0303/Solution.java) | 动态规划 |
 | 349 | [Intersection of Two Arrays](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | [两个数组的交集](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0349) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0349/Solution.java) | 哈希表 |
 | 350 | [Intersection of Two Arrays II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | [ 两个数组的交集 II](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0350) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0350/Solution.java) | 哈希表 |
+| 387 | [First Unique Character in a String](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | [ 字符串中的第一个唯一字符](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0387) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0387/Solution.java) | 哈希表 字符串 |
 | 804 | [Unique Morse Code Words](https://leetcode-cn.com/problems/unique-morse-code-words/) | [ 唯一摩尔斯密码词](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0804) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0804/Solution.java) | 字符串 |
 
 ### 中等
