@@ -20,7 +20,10 @@ public class Solution {
             res.add(new LinkedList<>(prefix));
             return;
         }
-        for (int i = start; i <= n; i++) {
+        // 剪枝
+        // 还有k - c.size()个空位, 所以, [i...n] 中至少要有 k - c.size() 个元素
+        // i最多为 n - (k - c.size()) + 1
+        for (int i = start; i <= n - (k - prefix.size()) + 1; i++) {
             prefix.add(i);
             backtrack(n, k, i+1, prefix);
             prefix.removeLast(); //举例 当prefix为[1,2]递归返回的时候，此时循环取3的时候，
