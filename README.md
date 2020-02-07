@@ -74,4 +74,5 @@
 ### 困难
 | NO | Title | Thinking | Code | Tags |
 | --- | --- | --- | --- | --- |
+| 51 | [N-Queens](https://leetcode-cn.com/problems/n-queens/) | [N皇后](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0051) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/hard/_0051/Solution.java) | 回溯算法 |
 | 99 | [Recover Binary Search Tree](https://leetcode-cn.com/problems/recover-binary-search-tree/) | [恢复二叉搜索树](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0099) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/hard/_0099/Solution.java) | 树 深度优先遍历 |
