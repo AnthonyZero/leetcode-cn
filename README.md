@@ -75,6 +75,7 @@
 | 701 | [Insert into a Binary Search Tree](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/) | [二叉搜索树中的插入操作](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0701) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/medium/_0701/Solution.java) | 树|
 | 707 | [Design Linked List](https://leetcode-cn.com/problems/design-linked-list/) | [设计链表](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0707) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/medium/_0707/Solution.java) |设计 链表|
 | 1038 | [Binary Search Tree to Greater Sum Tree](https://leetcode-cn.com/problems/binary-search-tree-to-greater-sum-tree/) | [从二叉搜索树到更大和树](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/1038) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/medium/_1038/Solution.java) | 二叉搜索树 |
+| 1143 | [Longest Common Subsequence](https://leetcode-cn.com/problems/longest-common-subsequence/) | [最长公共子序列](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/1143) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/medium/_1143/Solution.java) | 动态规划 |
 
 ### 困难
 | NO | Title | Thinking | Code | Tags |
