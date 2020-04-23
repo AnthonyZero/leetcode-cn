@@ -26,7 +26,7 @@ public class Solution {
             }
         }
         for(int i = 1; i < m - 1; i++) { //排序左下部分的 对角线 有m-1条对角线 不要左下角的
-            //起点横坐标为i 纵坐标y从0到 m-1
+            //起点横坐标为i从1到 m-1 纵坐标为0
             int x = i;
             int y = 0;
             List<Integer> list = new ArrayList<>();
