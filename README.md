@@ -45,6 +45,7 @@
 | 455 | [Assign Cookies](https://leetcode-cn.com/problems/assign-cookies/) | [分发饼干](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0455) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0455/Solution.java) | 贪心算法 |
 | 704 | [Binary Search](https://leetcode-cn.com/problems/binary-search/) | [二分查找](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0704) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0704/Solution.java) | 二分查找 |
 | 720 | [Longest Word in Dictionary](https://leetcode-cn.com/problems/longest-word-in-dictionary/) | [词典中最长的单词](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0720) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0720/Solution.java) | 字典树 |
+| 783 | [Minimum Distance Between BST Nodes](https://leetcode-cn.com/problems/minimum-distance-between-bst-nodes/) | [二叉搜索树节点最小距离](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0783) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0783/Solution.java) | 树 递归 |
 | 804 | [Unique Morse Code Words](https://leetcode-cn.com/problems/unique-morse-code-words/) | [ 唯一摩尔斯密码词](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0804) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0804/Solution.java) | 字符串 |
 
 ### 中等
