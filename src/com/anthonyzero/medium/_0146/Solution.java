@@ -42,18 +42,18 @@ public class Solution {
 //    }
 
     class LRUCache {
-        private int capacity;
-        private HashMap<Integer,ListNode> map;
+        private int capacity; //荣量
+        private HashMap<Integer,ListNode> map; //缓存 key -> listNode节点
 
         private ListNode dummyHead; //虚拟头节点
         private ListNode dummyTail; //虚拟尾节点
 
-        //双向链表节点
+        //双向链表的节点
         class ListNode{
             int key;
             int value;
-            ListNode pre;
-            ListNode next;
+            ListNode pre; //前驱
+            ListNode next; //后继
             ListNode(){}
             ListNode(int key, int value) {
                 this.key = key;
@@ -75,7 +75,7 @@ public class Solution {
                 return -1;
             }
             ListNode node = map.get(key);
-            //把找到的节点移动到链表头
+            //如果 key 存在，先通过哈希表定位到链表的位置，再移到头部
             removeNode(node);
             addNodeToHead(node);
             return node.value;
@@ -83,16 +83,19 @@ public class Solution {
 
         public void put(int key, int value) {
             if(!map.containsKey(key)) {
-                //不存在
+                //不存在 创建一个新的节点
                 ListNode newNode = new ListNode(key, value);
+                // 添加至双向链表的头部
                 addNodeToHead(newNode);
+                // 添加进哈希表
                 map.put(key, newNode);
                 if(map.size() > capacity) {
+                    // 如果超出容量，删除双向链表的尾部节点  同时删除哈希表中对应的项
                     ListNode delNode = removeLastNode();
                     map.remove(delNode.key);
                 }
             } else {
-                //key存在 替换值 并移动到头部
+                //key存在 先通过哈希表定位，再修改 value，并移到头部
                 ListNode node = map.get(key);
                 node.value = value;
                 removeNode(node);
