@@ -91,7 +91,8 @@ public class Solution {
                 map.put(key, newNode);
                 if(map.size() > capacity) {
                     // 如果超出容量，删除双向链表的尾部节点  同时删除哈希表中对应的项
-                    ListNode delNode = removeLastNode();
+                    ListNode delNode = dummyTail.pre;
+                    removeNode(delNode);
                     map.remove(delNode.key);
                 }
             } else {
@@ -111,13 +112,6 @@ public class Solution {
             next.pre = pre;
             node.pre = null;
             node.next = null;
-        }
-
-        // 移除最后一个节点（最近最少使用的）
-        private ListNode removeLastNode() {
-            ListNode node = dummyTail.pre;
-            removeNode(node);
-            return node;
         }
 
         // 把元素 移动到链表头部
