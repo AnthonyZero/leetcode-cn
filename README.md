@@ -5,7 +5,7 @@
 ### 简单
 | NO | Title | Thinking | Code | Tags |
 | --- | --- | --- | --- | --- |
-| 42 | [剑指 Offer 42. 连续子数组的最大和](https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/) | [连续子数组的最大和](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0042) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/medium/_0042/Solution.java) | 前缀和 动态规划|
+| 42 | [剑指 Offer 42. 连续子数组的最大和](https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/) | [连续子数组的最大和](https://github.com/AnthonyZero/leetcode-cn/tree/sword-finger-offer/notes/0042) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/sword-finger-offer/src/com/anthonyzero/easy/_0042/Solution.java) | 前缀和 动态规划|
 
 ### 中等
 | NO | Title | Thinking | Code | Tags |
