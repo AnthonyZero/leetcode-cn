@@ -1,18 +1,15 @@
-## leetcode-cn
-剑指Offer相关题目
+## 剑指Offer相关题目
 
 > 源代码在 src 目录中，相关题解都在 notes 目录中
 
 ### 简单
 | NO | Title | Thinking | Code | Tags |
 | --- | --- | --- | --- | --- |
-| 1 | [Two Sum](https://leetcode-cn.com/problems/two-sum/) | [两数之和](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0001) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/easy/_0001/Solution.java) | 数组 哈希表 |
-
+| 42 | [剑指 Offer 42. 连续子数组的最大和](https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/) | [连续子数组的最大和](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0042) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/medium/_0042/Solution.java) | 前缀和 动态规划|
 
 ### 中等
 | NO | Title | Thinking | Code | Tags |
 | --- | --- | --- | --- | --- |
-| 2 | [Add Two Numbers](https://leetcode-cn.com/problems/add-two-numbers/) | [两数相加](https://github.com/AnthonyZero/leetcode-cn/tree/master/notes/0002) | [Solution](https://github.com/AnthonyZero/leetcode-cn/blob/master/src/com/anthonyzero/medium/_0002/Solution.java) | 链表 数学|
 
 
 ### 困难

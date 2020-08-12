@@ -7,8 +7,8 @@ public class Solution {
             return 0;
         }
         int minArrSub = 0; //前缀和最小值
-        int res = nums[0]; //前缀和最大值
-        int sum = nums[0];
+        int res = nums[0]; //目标最大值
+        int sum = nums[0]; //当前所在位置的前缀和
         for(int i = 1; i < nums.length; i++) {
             sum += nums[i];
             minArrSub = Integer.min(sum - nums[i], minArrSub);
